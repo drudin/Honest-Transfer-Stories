@@ -66,6 +66,10 @@ function troncIt() {
                                     .replace(/asking price/, 'sum that would make the board happy')
                                     .replace(/valuation/, 'reasonably arbitrary determination of player value that is more of an art than a science')
                                     .replace(/release clause/, 'contractual provision that avoids a lot of posturing')
+                                    .replace(/Transfer Talk/, 'Stream of Transfer Consciousness')
+                                    .replace(/attracting interest/, 'gaining unspecified levels of attention from teams as a result of his performances')
+                                    .replace(/weighing up a move/, 'possibly considering offering money to another club')
+                                    .replace(/Jose Mourinho/, 'Jose &quot; A Manchurian Candidate allegedly installed by Jorge Mendes &quot; Mourinho')
                                     .replace(/negotiations/, 'talks between various parties and legal or financial experts');
 
                 if (replacedText !== text) {
