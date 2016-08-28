@@ -6,7 +6,7 @@
   "description": "An extension by David Rudin and Howler Magazine that takes the hype out of soccer transfer stories.",
   "browser_action": {
   "default_icon": "icon128.png",
-  "default_title": "icon"
+  "default_title": "Honest Transfers"
 },
 
 "background": {
