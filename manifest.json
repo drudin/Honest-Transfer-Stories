@@ -10,7 +10,7 @@
     },
     "default_title": "Honest Transfers",
           "default_popup": "popup.html" 
-  }
+  },
   "content_scripts": [
     {
       "matches": [
