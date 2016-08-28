@@ -11,6 +11,7 @@ function troncIt() {
             if (node.nodeType === 3) {
                 var text = node.nodeValue;
                 var replacedText = text
+                                    .replace(/undisclosed fee/, 'a fee that is presumably rising to eighty bajillion dollars because nobody is willing to reveal the number')
                                     .replace(/pokemongo/ig, 'goingoutside')
                                     .replace(/(playing\W|played\W|play\W)?Pok(é|e)mon\WGo/gi, 'going outside')
                                     .replace(/(a\W)?Pok(é|e)mon/gi, 'fresh air')
