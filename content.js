@@ -36,7 +36,11 @@ function troncIt() {
                                     .replace(/injury prone/, 'human with breakable bones and damageable muscles')
                                     .replace(/injury-prone/, 'human-with-breakable-bones-and-damageable-muscles')
                                     .replace(/club sources/, 'people working for the club who refused to be identified and therefore may or may not exist')
-                                    .replace(/strongly linked/, 'repeatedly mentioned in the same breath')
+                                    .replace(/linked/, 'mentioned in the same breath')
+                                    .replace(/swoop/, 'signing')
+                                    .replace(/sources close to the player/, 'unnamed people who probably are just the player, his agent, or a figment of my imagination')
+                                    .replace(/Jorge Mendes/, 'Jorge Ernst Stavro Blofeld Mendes')
+                                    .replace(/Mino Raiola', 'Beelzebub')
                                     .replace(/negotiations/, 'talks between various parties and legal or financial experts');
 
                 if (replacedText !== text) {
