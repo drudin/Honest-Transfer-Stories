@@ -41,12 +41,12 @@ function troncIt() {
                                     .replace(/sources close to the player/, 'unnamed people who probably are just the player, his agent, or a figment of my imagination')
                                     .replace(/Jorge Mendes/, 'Jorge Ernst Stavro Blofeld Mendes')
                                     .replace(/Mino Raiola/, 'Beelzebub')
-                                    .replace(/transfer window/, 'player transfer period that serves as an economic stimulus program for mediocre website')
+                                    .replace(/transfer window/, 'player transfer period that serves as an economic stimulus program for mediocre websites')
                                     .replace(/held talks/, 'probably texted')
                                     .replace(/subsidising his wages/, 'forking over a portion of his lofty wage package to make him vaguely desirable')
                                     .replace(/holding out/, 'exercising their right to say no and wait')
-                                    .replace(/initial bid/, 'first attempt to lowball')
-                                    .replace(/Southampton/, 'The Saint Mary institute for player development and Liverpool fleecing')
+                                    .replace(/initial bid/, 'sneaky first attempt to score a bargain')
+                                    .replace(/Southampton/, 'The Saint Mary Institute For Player Development and Liverpool Fleecing')
                                     .replace(/splashing out/, 'paying')
                                     .replace(/unnamed sources/, 'people who may have been made up by this reporter or someone else')
                                     .replace(/medicals/, 'tests to determine whether their bones and muscle are in roughly the correct spots')
@@ -60,6 +60,12 @@ function troncIt() {
                                     .replace(/The Sun/, 'The Newspaper Whose Truth About Hillsborough Turned Out Not To Be Truthful and Incredibly Damaging')
                                     .replace(/free to leave/, 'permitted to go work somewhere else if that club is prepared to provide adequate financial compensation to his current employer')
                                     .replace(/it is believed/, 'it may be true though we cannot be certain')
+                                    .replace(/tracked/, 'followed through channels available to everyone and pretended was top-secret surveillance')
+                                    .replace(/starlet/, 'young player who may or may not turn out to be a star because who really knows about these things?')
+                                    .replace(/no intention of selling/, 'does not plan on selling unless an ungodly sum is offered in which case everything is flexible and isn't it always)
+                                    .replace(/asking price/, 'sum that would make the board happy')
+                                    .replace(/valuation/, 'reasonably arbitrary determination of player value that is more of an art than a science')
+                                    .replace(/release clause/, 'contractual provision that avoids a lot of posturing')
                                     .replace(/negotiations/, 'talks between various parties and legal or financial experts');
 
                 if (replacedText !== text) {
