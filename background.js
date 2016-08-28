@@ -1,4 +1,4 @@
-var enable=false;
+var enable=true;
 chrome.browserAction.onClicked.addListener(function (tab) {
  enable = enable ? false : true;
  if(enable){
