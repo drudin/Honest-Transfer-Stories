@@ -49,6 +49,17 @@ function troncIt() {
                                     .replace(/Southampton/, 'The Saint Mary institute for player development and Liverpool fleecing')
                                     .replace(/splashing out/, 'paying')
                                     .replace(/unnamed sources/, 'people who may have been made up by this reporter or someone else')
+                                    .replace(/medicals/, 'tests to determine whether their bones and muscle are in roughly the correct spots')
+                                    .replace(/medical/, 'test to determine whether their bones and muscle are in roughly the correct spots')
+                                    .replace(/transfer rumours/, 'idle speculation')
+                                    .replace(/free transfer/, 'an unusual piece of good business')
+                                    .replace(/tracked/, 'explored using the medium of YouTube compilations set to bad techno')
+                                    .replace(/talks stall/, 'discussions fail to reach a mutually agreeable solution')
+                                    .replace(/locked in talks/, 'making slow progress')
+                                    .replace(/raid/, 'legal maneuvre')
+                                    .replace(/The Sun/, 'The Newspaper Whose Truth About Hillsborough Turned Out Not To Be Truthful and Incredibly Damaging')
+                                    .replace(/free to leave/, 'permitted to go work somewhere else if that club is prepared to provide adequate financial compensation to his current employer')
+                                    .replace(/it is believed/, 'it may be true though we cannot be certain')
                                     .replace(/negotiations/, 'talks between various parties and legal or financial experts');
 
                 if (replacedText !== text) {
