@@ -8,8 +8,7 @@
       "128": "icon128.png",
       "48": "icon48.png"
     },
-    "default_title": "Honest Transfers",
-          "default_popup": "popup.html" 
+    "default_title": "Honest Transfers"
   },
   "content_scripts": [
     {
