@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Honest Transfer Stories",
   "version": "1.0",
-  "permissions":"tabs",
+  "permissions":["tabs"],
   "description": "An extension by David Rudin and Howler Magazine that takes the hype out of soccer transfer stories.",
   "browser_action": {
   "default_icon": "icon128.png",
