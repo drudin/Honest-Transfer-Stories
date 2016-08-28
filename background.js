@@ -1,4 +1,6 @@
-hrome.browserAction.onClicked.addListener(function(tab) {
+var toggle = false;
+
+chrome.browserAction.onClicked.addListener(function(tab) {
   toggle = !toggle;
   if(toggle){
     chrome.browserAction.setIcon({path: "icon128.png", tabId:tab.id});
