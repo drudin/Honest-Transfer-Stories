@@ -36,7 +36,7 @@ function troncIt() {
                                     .replace(/injury prone/, 'human with breakable bones and damageable muscles')
                                     .replace(/injury-prone/, 'human-with-breakable-bones-and-damageable-muscles')
                                     .replace(/club sources/, 'people working for the club who refused to be identified and therefore may or may not exist')
-                                    .replace()
+                                    .replace(/strongly linked/, 'repeatedly mentioned in the same breath')
                                     .replace(/negotiations/, 'talks between various parties and legal or financial experts');
 
                 if (replacedText !== text) {
