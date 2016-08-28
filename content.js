@@ -26,7 +26,7 @@ function troncIt() {
                                     .replace(/target/, 'object of affection')
                                     .replace(/important player/, 'man with two legs who runs around a bit')
                                     .replace(/capture/, 'contractual agreement')
-                                    .replace(/negotiations/ 'talks between various parties and legal or financial experts');
+                                    .replace(/negotiations/, 'talks between various parties and legal or financial experts');
 
                 if (replacedText !== text) {
                     node.textContent = replacedText;
