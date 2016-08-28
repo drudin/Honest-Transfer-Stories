@@ -40,7 +40,15 @@ function troncIt() {
                                     .replace(/swoop/, 'signing')
                                     .replace(/sources close to the player/, 'unnamed people who probably are just the player, his agent, or a figment of my imagination')
                                     .replace(/Jorge Mendes/, 'Jorge Ernst Stavro Blofeld Mendes')
-                                    .replace(/Mino Raiola', 'Beelzebub')
+                                    .replace(/Mino Raiola/, 'Beelzebub')
+                                    .replace(/transfer window/, 'player transfer period that serves as an economic stimulus program for mediocre website')
+                                    .replace(/held talks/, 'probably texted')
+                                    .replace(/subsidising his wages/, 'forking over a portion of his lofty wage package to make him vaguely desirable')
+                                    .replace(/holding out/, 'exercising their right to say no and wait')
+                                    .replace(/initial bid/, 'first attempt to lowball')
+                                    .replace(/Southampton/, 'The Saint Mary institute for player development and Liverpool fleecing')
+                                    .replace(/splashing out/, 'paying')
+                                    .replace(/unnamed sources/, 'people who may have been made up by this reporter or someone else')
                                     .replace(/negotiations/, 'talks between various parties and legal or financial experts');
 
                 if (replacedText !== text) {
