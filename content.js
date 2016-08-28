@@ -22,11 +22,21 @@ function troncIt() {
                                     .replace(/trimming squad/, 'cutting down the size of their squad after spending unwisely in the past')
                                     .replace(/under contract/, 'in a strictly legal sense obliged to ply his trade')
                                     .replace(/agreed terms/, 'agreed to a significant pay package')
-                                    .replace(/not for sale/, 'not for sale, unless a bigger offer comes in, at which point he will definitely be for sale')
+                                    .replace(/not for sale/, 'unavailable, unless a bigger offer comes in, at which point he will definitely be for sale')
                                     .replace(/target/, 'object of affection')
                                     .replace(/important player/, 'man with two legs who runs around a bit')
                                     .replace(/capture/, 'contractual agreement')
                                     .replace(/dream/, 'allegedly desirable')
+                                    .replace(/vitesse/, 'The Chelsea finishing school in the Netherlands for prospects who just have not made the cut')
+                                    .replace(/vitesse arnhem/, 'The Chelsea finishing school in the Netherlands for prospects who just have not made the cut')
+                                    .replace(/no interest/, 'some interest but nothing they are willing to confirm in public')
+                                    .replace(/potential deal/, 'deal that could happen provided everyone is happy with it and all the money and contractual terms are mutually agreeable')
+                                    .replace(/eyeing/, 'considering')
+                                    .replace(/transfer deadline/, 'last day of the transfer window that clubs would rather you forget they knew about all along')
+                                    .replace(/injury prone/, 'human with breakable bones and damageable muscles')
+                                    .replace(/injury-prone/, 'human-with-breakable-bones-and-damageable-muscles')
+                                    .replace(/club sources/, 'people working for the club who refused to be identified and therefore may or may not exist')
+                                    .replace()
                                     .replace(/negotiations/, 'talks between various parties and legal or financial experts');
 
                 if (replacedText !== text) {
