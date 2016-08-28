@@ -62,7 +62,7 @@ function troncIt() {
                                     .replace(/it is believed/, 'it may be true though we cannot be certain')
                                     .replace(/tracked/, 'followed through channels available to everyone and pretended was top-secret surveillance')
                                     .replace(/starlet/, 'young player who may or may not turn out to be a star because who really knows about these things?')
-                                    .replace(/no intention of selling/, 'does not plan on selling unless an ungodly sum is offered in which case everything is flexible and isn't it always)
+                                    .replace(/no intention of selling/, 'does not plan on selling unless an ungodly sum is offered in which case everything is flexible')
                                     .replace(/asking price/, 'sum that would make the board happy')
                                     .replace(/valuation/, 'reasonably arbitrary determination of player value that is more of an art than a science')
                                     .replace(/release clause/, 'contractual provision that avoids a lot of posturing')
