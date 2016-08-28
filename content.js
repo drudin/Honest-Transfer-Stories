@@ -15,7 +15,7 @@ function troncIt() {
                                     .replace(/braced for a bid/, 'ready for another team to get in touch because that is how the sport works');
                                     .replace(/with an option to buy/, 'with an option to pay the actual transfer fee later because the club does not have the money right now');
                                     .replace(/slams shut/, 'gently closes just like everyone knew it would');
-                                    .replace(/Ars(e|è)ne Wenger/, 'the successful manager who Arsenal fans periodically freak out about');
+                                    .replace(/Ars(e|è)ne(\W)?Wenger/, 'the successful manager who Arsenal fans periodically freak out about');
                                     .replace(/pokemongo/ig, 'goingoutside')
                                     .replace(/(playing\W|played\W|play\W)?Pok(é|e)mon\WGo/gi, 'going outside')
                                     .replace(/(a\W)?Pok(é|e)mon/gi, 'fresh air')
