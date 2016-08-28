@@ -69,7 +69,7 @@ function troncIt() {
                                     .replace(/Transfer Talk/, 'Stream of Transfer Consciousness')
                                     .replace(/attracting interest/, 'gaining unspecified levels of attention from teams as a result of his performances')
                                     .replace(/weighing up a move/, 'possibly considering offering money to another club')
-                                    .replace(/Jose Mourinho/, 'Jose &quot; A Manchurian Candidate allegedly installed by Jorge Mendes &quot; Mourinho')
+                                    .replace(/Jose Mourinho/, 'Jose "A Manchurian Candidate allegedly installed by Jorge Mendes" Mourinho')
                                     .replace(/negotiations/, 'talks between various parties and legal or financial experts');
 
                 if (replacedText !== text) {
