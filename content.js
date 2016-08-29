@@ -18,7 +18,6 @@ function troncIt() {
                                     .replace(/Ars(e|è)ne(\W)?Wenger/, 'the successful manager who Arsenal fans periodically freak out about')
                                     .replace(/transfer request/, 'request to work somewhere else')
                                     .replace(/wantaway/, 'keen on living or working somewhere else at this point in his life')
-                                    .replace(/star/, 'player of some value')
                                     .replace(/trimming squad/, 'cutting down the size of their squad after spending unwisely in the past')
                                     .replace(/under contract/, 'in a strictly legal sense obliged to ply his trade')
                                     .replace(/agreed terms/, 'agreed to a significant pay package')
