@@ -70,6 +70,15 @@ function troncIt() {
                                     .replace(/attracting interest/, 'gaining unspecified levels of attention from teams as a result of his performances')
                                     .replace(/weighing up a move/, 'possibly considering offering money to another club')
                                     .replace(/Jose Mourinho/, 'Jose "A Manchurian Candidate allegedly installed by Jorge Mendes" Mourinho')
+                                    .replace(/Tancredi Palmeri/, 'SUPERBOMBAZO!!!')
+                                    .replace(/Harry Redknapp/, 'That Manager Who Always Gives Interviews Through His Car Window')
+                                    .replace(/could rise/, 'will likely rise — but nobody is willing to confirm as much — ')
+                                    .replace(/Transfer news/, 'Rewritten club press release')
+                                    .replace(/spending/, 'throwing money around')
+                                    .replace(/penny pinching/, 'limiting spending to mere multi-million dollar outlays')
+                                    .replace(/free transfer/, 'transfer in which there was no fee per se but free moves still involve other forms of compensation and are therefore something of a misnomer')
+                                    .replace(/in talks/, 'possibly taking some action')
+                                    .replace(/convinced/, 'encouraged without overriding his free will')
                                     .replace(/negotiations/, 'talks between various parties and legal or financial experts');
 
                 if (replacedText !== text) {
