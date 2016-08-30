@@ -51,7 +51,6 @@ function troncIt() {
                                     .replace(/medicals/, 'tests to determine whether their bones and muscle are in roughly the correct spots')
                                     .replace(/medical/, 'test to determine whether their bones and muscle are in roughly the correct spots')
                                     .replace(/transfer rumours/, 'idle speculation')
-                                    .replace(/free transfer/, 'an unusual piece of good business')
                                     .replace(/tracked/, 'explored using the medium of YouTube compilations set to bad techno')
                                     .replace(/talks stall/, 'discussions fail to reach a mutually agreeable solution')
                                     .replace(/locked in talks/, 'making slow progress')
